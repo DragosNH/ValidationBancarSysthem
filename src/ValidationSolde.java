@@ -8,7 +8,9 @@ public class ValidationSolde implements ISuportService {
     }
 
     @Override
-    public void handleRequest(ISuportService request) {
+    public void handleRequest(ServiceRequest request) {
+        if(request.getType() == ETypeRequest.VALIDATION_SOLDE){
 
+        }
     }
 }
